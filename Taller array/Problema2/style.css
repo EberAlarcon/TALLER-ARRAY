@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(197, 255, 231);
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(248, 25, 25);
+}
+.diseño{
+   background-color: rgb(173, 178, 253);
+   color: rgb(10, 6, 247);
+   width: 450px;
+   max-width: 1000px;
+   margin: 1.6em auto;
+   text-align: left;
+   padding: 10px;
+   border: rgb(41, 73, 255) 2px solid;
+   border-radius: 10px; 
+}

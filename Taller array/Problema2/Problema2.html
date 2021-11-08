@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Taller#4-Problema2</title>
+</head>
+<!-- EBER ALARCON CEDEÑO CUARTO SEMESTRE "A" -->
+<body>
+    <h1>Producto Alimenticio</h1>
+    <div class="diseño">
+    <script>
+        function Producto_alimenticio(Code,Nombre,Valor){
+            this.Code=Code;
+            this.Nombre=Nombre;
+            this.Valor=Valor;
+        }
+        var producto1=new Producto_alimenticio(001,"Arroz un Quintal" ,"$ 40,00");
+        var producto2=new Producto_alimenticio(002,"Azucar 2lbrs","$ 1.50");
+        var producto3=new Producto_alimenticio(003,"Café en grano 15lbrs","$ 21.50");
+        var array=[producto1,producto2,producto3];
+        for (contar = 0; contar < array.length; contar++) {imprimeDatos(array[contar])}
+        function imprimeDatos(array){
+            document.write("Código: "+array.Code+" | ");
+            document.write("Nombre: "+array.Nombre+" | ");
+            document.write("Precio: "+array.Valor+"<br>");
+        }
+    </script>
+   </div>
+</body>
+</html>
